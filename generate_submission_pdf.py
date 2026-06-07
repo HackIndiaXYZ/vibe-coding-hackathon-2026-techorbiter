@@ -34,7 +34,7 @@ class HireviumWhitepaper(FPDF):
         self.set_y(-15)
         self.set_font("helvetica", "", 8)
         self.set_text_color(100, 116, 139)
-        self.cell(0, 10, "Confidential - Adityasri05/Hirevium", new_x="RIGHT", new_y="TOP", align="L")
+        self.cell(0, 10, "Confidential - HackIndiaXYZ/vibe-coding-hackathon-2026-techorbiter", new_x="RIGHT", new_y="TOP", align="L")
         
         # Page numbering
         page_num = f"Page {self.page_no()} of {{nb}}"
@@ -158,7 +158,7 @@ def generate_pdf():
     pdf.cell(40, 5, "Project Repository:", new_x="RIGHT", new_y="TOP")
     pdf.set_font("helvetica", "B", 9)
     pdf.set_text_color(37, 99, 235)
-    pdf.cell(0, 5, "github.com/Adityasri05/Hirevium", new_x="LMARGIN", new_y="NEXT")
+    pdf.cell(0, 5, "github.com/HackIndiaXYZ/vibe-coding-hackathon-2026-techorbiter", new_x="LMARGIN", new_y="NEXT")
     
     pdf.set_font("helvetica", "", 9)
     pdf.set_text_color(71, 85, 105)
@@ -172,7 +172,7 @@ def generate_pdf():
     pdf.cell(40, 5, "Developer Portfolio:", new_x="RIGHT", new_y="TOP")
     pdf.set_font("helvetica", "B", 9)
     pdf.set_text_color(15, 23, 42)
-    pdf.cell(0, 5, "Adityasri05", new_x="LMARGIN", new_y="NEXT")
+    pdf.cell(0, 5, "HackIndiaXYZ", new_x="LMARGIN", new_y="NEXT")
     
     pdf.set_font("helvetica", "", 9)
     pdf.set_text_color(71, 85, 105)
@@ -443,10 +443,10 @@ def generate_pdf():
     pdf.cell(0, 5, "Submitted by Team Hirevium", new_x="LMARGIN", new_y="NEXT", align="C")
     pdf.set_font("helvetica", "I", 9)
     pdf.set_text_color(100, 116, 139)
-    pdf.cell(0, 5, "Codebase, Deployment, and Assets available at github.com/Adityasri05/Hirevium", new_x="LMARGIN", new_y="NEXT", align="C")
+    pdf.cell(0, 5, "Codebase, Deployment, and Assets available at github.com/HackIndiaXYZ/vibe-coding-hackathon-2026-techorbiter", new_x="LMARGIN", new_y="NEXT", align="C")
 
     # Output file
-    output_filename = r"d:\Hackathon Projects\HireIQ\Hirevium_Hackathon_Submission.pdf"
+    output_filename = "Hirevium_Hackathon_Submission.pdf"
     pdf.output(output_filename)
     print(f"PDF successfully generated at: {output_filename}")
 
