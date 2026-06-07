@@ -262,3 +262,8 @@ Follow these steps to run the complete HIREVIUM system locally:
 ---
 
 *HIREVIUM features high engineering complexity and seamless executive decision telemetry.*
+
+---
+
+### 🏷️ HackIndia Team Metadata
+Hackathon team repository for TechOrbiter💻🚀 - `[hackindia-team:vibe-coding-hackathon-2026:techorbiter]`
